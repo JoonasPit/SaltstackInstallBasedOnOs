@@ -1,0 +1,12 @@
+
+{% if "Windows" == grains["kernel"] %}
+{% set usedfile = "C:\\Users\\Teppo\\Desktop\\helloapolyon.txt" %}
+{% else %}
+{% set usedfile = "/tmp/helloapolyon.txt" %}
+
+{% endif %}
+
+{{ usedfile }}:
+  file.managed:
+    - source: salt://hello/helloapolyon.txt
+
