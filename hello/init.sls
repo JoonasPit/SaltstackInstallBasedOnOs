@@ -12,6 +12,8 @@
 {% set usedfile = "/tmp/helloxubutnu.txt" %}
 {% elif "LinuxMint" == grains["lsb_distrib_id"] %}
 {% set usedfile = "/tmp/hellomint.txt" %}
+{% elif "Debian" == grains["lsb_distrib_id"] %}
+{% set usedfile = "/tmp/hellodebian.txt" %}
 
 {% endif %}
 
