@@ -5,7 +5,7 @@ firewalld:
   cmd.run:
     - unless: "sudo firewall-cmd --zone=public --permanent --list-ports | grep '8181'"
 
-"firewall-cmd --permanent --zone=public --add-service=http":
+"firewall-cmd --permanent --zone=public --add-port=80/tcp":
   cmd.run: 
     - unless: "sudo firewall-cmd --zone=public --permanent --list-ports | grep '80'"
 
