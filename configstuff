@@ -1,4 +1,3 @@
-
 {% if "Windows" == grains["kernel"] %}
 {% set usedfile = "C:\\Users\\Teppo\\Desktop\\helloapolyon.txt" %}
 {% else %}
@@ -10,3 +9,11 @@
   file.managed:
     - source: salt://hello/helloapolyon.txt
 
+lsb_distrib_description:
+        Ubuntu 16.04.5 LTS
+
+lsb_distrib_description:
+        Ubuntu 18.04.1 LTS
+
+
+fedora yum
