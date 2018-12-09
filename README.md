@@ -1,17 +1,8 @@
-# Creating a new saltstack that configures and installs :
+# Creating a new saltstack that configures
 
-- Xubuntu 18.04 LTS with LAMP, gedit, python3,
+Xubuntu 18.04 LTS
+Centos7
+Fedora28
+Kali Linux
+Windows 10
 
-- MAC OS X Lion (attempt)
-
-- Windows 10
-
-- Windows 8.1?
-
-- ubuntu 16.04 
-
-- Linux mint
-
-- Kali Linux
-
-- 
