@@ -1,4 +1,6 @@
-# Creating a new saltstack that configures
+# Miniproject for my Linux-server course
+
+This module configures the following operating systems. Works only if they are made minions
 
 Xubuntu 18.04 LTS
 Centos7
